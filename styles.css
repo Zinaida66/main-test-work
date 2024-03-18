@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body .header {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  font-family: monospace;
+  padding: 0px 5%;
+}
+body .login-in {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  font-size: 13px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 50px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.801);
+}
+body nav {
+  margin-top: 15px;
+  color: aliceblue;
+  width: 100%;
+}
+body nav > ul {
+  margin-left: 40px;
+  display: flex;
+  justify-content: space-around;
+  width: 65%;
+}
+body nav > ul li a {
+  font-size: 15px;
+  display: block;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 5px;
+  margin: 5px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  position: relative;
+  border-bottom: 3px solid rgba(231, 230, 215, 0);
+  text-transform: uppercase;
+}
+body div > ul {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  width: 45%;
+}
+body div > ul li a {
+  font-size: 15px;
+  display: block;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 5px;
+  margin: 5px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  position: relative;
+  border-bottom: 3px solid rgba(231, 230, 215, 0);
+  text-transform: uppercase;
+}
+body div .list {
+  margin: 0px 8%;
+  display: flex;
+  justify-content: space-between;
+}
+body footer {
+  width: 100%;
+  height: 336px;
+  border: 1px solid rgb(212, 212, 210);
+  padding: 60px;
+}
+body footer div {
+  display: flex;
+  justify-content: space-between;
+}
+body footer div div {
+  display: flex;
+  flex-direction: column;
+  width: 170px;
+  height: 145px;
+}
+
+.search-form {
+  background-color: rgb(231, 225, 225);
+  margin: 15px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 40px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.search-form .txt {
+  width: 300px;
+  border: none;
+  outline: none;
+  padding-right: 10px;
+  background-color: transparent;
+}
+.search-form .btn {
+  border: none;
+  background-color: transparent;
+}
+
+.basket-heart {
+  display: flex;
+  height: 30px;
+  margin: 15px;
+}
+
+.favorite {
+  margin-right: 10px;
+}
+
+.novelty {
+  font-weight: 600;
+}
+
+.Rectangle {
+  margin: 40px 8%;
+  display: flex;
+  justify-content: center;
+}
+
+.Rectangle > div {
+  width: 1170px;
+  width: 50%;
+}
+
+.Rectangle > div h2,
+p {
+  margin-top: 50px;
+  font-family: "Roboto-Medium", sans-serif;
+}
+
+.Rectangle > div p {
+  margin-top: 10px;
+  width: 422px;
+}
+
+.Rectangle > div img {
+  width: 570px;
+  height: 381px;
+}
+
+.Rectangle div .catalog {
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+  width: 165px;
+  height: 51px;
+  border-radius: 15px;
+}
+
+.cars-catalog {
+  margin: 0px 80px 30px 80px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.cards {
+  width: 370px;
+  margin: 25px;
+}
+
+.card-title {
+  margin: 10px 0px;
+}
+
+.cards > div p {
+  margin: 5px 0px;
+}
+
+.cards > div h6 {
+  color: rgb(74, 170, 78);
+}
+
+.shares {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.shares > p {
+  width: 570px;
+}
+
+.email-form {
+  width: 570px;
+  height: 51px;
+  border-radius: 15px;
+  border: 1px solid;
+  margin: 15px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.email-form > input {
+  padding-left: 20px;
+  border: none;
+  outline: none;
+  padding-right: 10px;
+  background-color: transparent;
+}
+
+.email-form > button {
+  width: 169px;
+  height: 51px;
+  background: rgb(98, 98, 98);
+  padding: 20 35 20 35;
+  border-radius: 15px;
+}
+
+.card-feedback {
+  margin: 20px;
+  border-radius: 15px;
+  padding: 30px;
+  width: 270px;
+  height: 250px;
+  border: 1px solid rgba(0, 0, 0, 0.671);
+}
+
+.rest {
+  display: flex;
+  justify-content: space-between;
+  height: 93px;
+  background-color: rgba(0, 0, 0, 0.842);
+}
+.rest img {
+  width: 238px;
+  margin: 30px;
+}/*# sourceMappingURL=styles.css.map */
